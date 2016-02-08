@@ -1,3 +1,5 @@
+library(fpp)
+library(forecast)
 #A plot of the time series m copper: copper price annual data
 
 png(filename="mcopper.png")
