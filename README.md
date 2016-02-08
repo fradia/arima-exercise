@@ -6,4 +6,6 @@ The exercise asks to consider a time series for the data set "mcopper" and to co
 
 First of all, the data is transformed with a Box Cox transformation for a suitable parameter lambda.Two possible ARIMA models are considered (one of them suggested by the auto.arima() function). Finally, a forecast with the fitted model is produced and compared with the one provided by the ets() function without transformation.
 
-The models used follow the theory explained in the book: https://www.otexts.org/fpp (In particular, see Chapter 8).
+See: https://www.otexts.org/fpp (In particular, Chapter 8).
+
+The different models considered are printed together with the forecast. The plots are saved as .png files
